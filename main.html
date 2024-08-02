@@ -13,17 +13,18 @@
 		<label for="email">Email</label>
 		<input type="email" required id="email" placeholder="Email">
 		<label for="gender_m">
-			<input type="radio" id="gender_m" name="gender" value="gender" required>Male
+			<input type="radio" id="gender_m" name="gender" value="male" required>Male
 		</label>
 		<label for="gender_f">
-			<input type="radio" id="gender_f" value="gender" name="gender" required>Female
+			<input type="radio" id="gender_f" name="gender" value="female" required>Female
 		</label>
 		<label for="cars">Car Brands</label>
-		<select id="cars" name="cars" placeholder="--Please choose an option--" required>
-			<option value="cars">A</option>
-			<option value="cars">S</option>
-			<option value="cars">Z</option>
-			<option value="cars">C</option>
+		<select id="cars" name="cars" required>
+			<option value="" disabled selected>--Please choose an option--</option>
+			<option value="a">A</option>
+			<option value="s">S</option>
+			<option value="z">Z</option>
+			<option value="c">C</option>
 		</select>
 		<label for="age">Age</label>
 		<input type="number" placeholder="Age" id="age" required>
